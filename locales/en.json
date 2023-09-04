@@ -1,0 +1,17 @@
+{
+	"addEvent": "Event added - %s.",
+	"updateEndEvent": "Event updated - %s",
+	"alreadyEndEvent": "The last event already has the end date - %s",
+	"start": "GG, you are authorised.",
+	"updateLanguage": "Language updated.",
+	"sameCategory": "Can't have same parent category and category.",
+	"listCategoryEmpty": "Categories not found.",
+	"logNotFound": "Log not found.",
+	"deleteLastEvent": "Last event deleted.",
+	"help": "I'll help you, I'll help you.\n\n/start - only for messing around\n/help - well, you're looking at it\n/en - English\n/it - Italian\n\nYou can use the bot with buttons to add an event in that moment or writing a category.\n\nMessage example:\n1. \"drink\" it will add a category \"drink\" if it does not exist, and add an event with that category and a start date of \"now\".\n\n2. \"health.drink\" it will add a parent category \"health\" (if it does not exist), add a child category \"drink\" with the parent category \"health\", and add an event to the \"drink\" category.\n\n3. \"guitar 10\" same as 1., but with an end date of \"now\" and a start date of 10 minutes ago. This means you played guitar for 10 minutes until now.\n\n4. \"Until Now\" - the end date of the last event will be filled.\n\n5. \"List Category\" - it will show all the categories.\n\n6. \"Delete Event\" - it will delete the last event.\n\n7. Messages consisting only of numbers will be rejected.",
+	"errorDeleteLastEvent": "Something went wrong. Checks if the event has been cancelled.",
+	"errorCategoryEmpty": "Something went wrong. Category is empty",
+	"errorEditMessage": "Sorry, I don't read edited messages.",
+	"errorFormatNotValid": "Format not valid. Try /help to understand how to format the message.",
+	"errorNotAuthorized": "Just nope."
+}

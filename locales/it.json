@@ -1,0 +1,17 @@
+{
+	"addEvent": "Evento aggiunto - %s.",
+	"updateEndEvent": "Evento aggiornato - %s",
+	"alreadyEndEvent": "L'ultimo evento ha già una data di fine - %s",
+	"start": "GG, sei autorizzato.",
+	"updateLanguage": "Cambiato lingua.",
+	"sameCategory": "Non puoi avere la stessa categoria e genitore della categoria.",
+	"listCategoryEmpty": "Categorie non trovate.",
+	"logNotFound": "Log non trovato.",
+	"deleteLastEvent": "Ultimo evento cancellato.",
+	"help": "Ti aiuterò, ti aiuterò.\n\n/start solo per scherzare\n/help beh, stai guardando questo\n/en - Inglese\n/it - Italiano\n\nPuoi usare il bot con i pulsanti per aggiungere un evento in quel momento o scrivere una categoria.\n\nEsempio di messaggio:\n1. \"drink\" aggiungerà una categoria \"drink\" se non esiste e aggiungerà un evento con quella categoria e una data di inizio di \"adesso\".\n\n2. \"health.drink\" aggiungerà una categoria genitore \"health\" (se non esiste), aggiungerà una categoria figlio \"drink\" con la categoria genitore \"health\" e aggiungerà un evento alla categoria \"drink\".\n\n3. \"guitar 10\" come il punto 1., ma con una data di fine di \"adesso\" e una data di inizio di 10 minuti fa. Questo significa che hai suonato la chitarra per 10 minuti fino ad ora.\n\n4. \"Until Now\" - la data di fine dell'ultimo evento verrà compilata.\n\n5. \"List Category\" - mostrerà tutte le categorie.\n\n6. \"Delete Event\" - cancellerà l'ultimo evento creato.\n\n7. I messaggi composti solo da numeri saranno respinti.",
+	"errorDeleteLastEvent": "Qualcosa è andato storto. Controlla se l'evento è stato cancellato.",
+	"errorCategoryEmpty": "Qualcosa è andato storto. La categoria è vuota",
+	"errorEditMessage": "Spiacente, non leggo i messaggi modificati.",
+	"errorFormatNotValid": "Formato non valido. Prova /help per capire come formattare il messaggio.",
+	"errorNotAuthorized": "Nope, non sei autorizzato."
+}
